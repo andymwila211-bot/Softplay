@@ -1,13 +1,11 @@
-name: Build Softplay APK
-on: push
+name: Build Softplay
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build with Buildozer
+      - name: Build
         uses: ArtemSBulgakov/buildozer-action@v1
         with:
-          buildozer_version: master
           command: buildozer -v android debug
-          repository_root: .
