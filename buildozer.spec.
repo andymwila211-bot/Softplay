@@ -1,0 +1,14 @@
+[app]
+title = Softplay
+package.name = softplay
+package.domain = org.test
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+version = 0.1
+requirements = python3,kivy,kivymd,pillow
+orientation = portrait
+android.api = 34
+android.minapi = 21
+android.sdk = 34
+android.ndk = 25b
+android.archs = arm64-v8a
