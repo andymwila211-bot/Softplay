@@ -1,4 +1,4 @@
-name: Build Softplay
+name: Build APK
 on: push
 jobs:
   build:
